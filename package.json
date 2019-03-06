@@ -1,11 +1,17 @@
 {
   "name": "todo-clientonly",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "shortid": "^2.2.14",
+    "todomvc-app-css": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
