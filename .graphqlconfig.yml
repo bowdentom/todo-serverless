@@ -1,0 +1,16 @@
+projects:
+  TodoServerlessAppSyncApi:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: ro6g2vn34nfqrjxpnfx4qdjw44
+      endpoints:
+        prod: >-
+          https://pgpqqmjbgvbolemt4gc2z3t7h4.appsync-api.us-east-1.amazonaws.com/graphql
